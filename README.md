@@ -32,6 +32,9 @@
 # Step:
 
 ## [1] 实体机器人：
+path_firmware: ~/juliebot/Juliebot_Motion_Control_MicroROS
+path_software: ~/juliebot/ex28_juliebot_ws
+
 ### 1. ROS2 TF 广播 -> juliebot_bringup
 cd /home/ros2/Desktop/juliebot/ex28_juliebot_ws/
 
@@ -110,7 +113,7 @@ ros2 launch juliebot_navigation2 navigation2.launch.py
 
 
 ## [2] 虚拟机器人： 
-path: ~/Desktop/juliebot/ex29_slam_nav2
+path: ~/juliebot/ex29_slam_nav2
 
 ### 1. gazebo模拟机器人 （+ rviz实时显示IMU/Odom等监测数据）：
 package: juliebot_description
