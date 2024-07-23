@@ -33,6 +33,7 @@
 
 ## [1] 实体机器人：
 path_firmware: ~/juliebot/Juliebot_Motion_Control_MicroROS
+
 path_software: ~/juliebot/ex28_juliebot_ws
 
 ### 1. ROS2 TF 广播 -> juliebot_bringup
