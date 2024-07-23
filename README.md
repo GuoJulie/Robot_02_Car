@@ -1,4 +1,4 @@
-# Robot_02_Car
+# Robot_02_Car_juliebot
 ## Function: 
 - SLAM mapping simulation
 - Nav2 point/waypoint navigation simulation
